@@ -4,7 +4,7 @@ function Header() {
     return (
         <header>
             <div className="header-content-container">
-                <img className="globe-img" src={require("../images/small-globe-black.png")}></img>
+                <img className="globe-img" src={require("../images/small-globe-black.png")} alt="Small globe"></img>
                 <h3>my travel journal.</h3>
             </div>
         </header>

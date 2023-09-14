@@ -21,7 +21,9 @@ function App() {
     return (
         <div>
             <Header />
-            {sections}
+            <main className="main-container">
+                {sections}
+            </main>
         </div>
     )
 
