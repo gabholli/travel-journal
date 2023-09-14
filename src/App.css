@@ -15,10 +15,6 @@ body {
     font-family: Inter, Arial, Helvetica, sans-serif;
 }
 
-header {
-    width: 100%;
-}
-
 .header-content-container {
     height: 55px;
     background: #F55A5A;
@@ -45,11 +41,9 @@ header {
 }
 
 .main-container {
-    margin: 1em 0;
+    margin: 1em .2em;
     display: grid;
     place-items: center;
-    height: 100vh;
-
 }
 
 .info-section {
@@ -79,6 +73,7 @@ header {
     gap: 0.25em;
     display: flex;
     align-items: center;
+    margin-right: .5em;
 }
 
 .map-icon {
