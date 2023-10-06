@@ -149,6 +149,10 @@ body {
             "image . dates dates dates"
             "image . description description description";
     }
+
+    .section-image {
+        margin-right: 1em;
+    }
 }
 
 @media (min-width: 1440px) {
